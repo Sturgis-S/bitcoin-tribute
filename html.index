@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title id="title">Bitcoin</title>
+</head>
+<body>
+    <header>
+        <img id="image1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/225px-Bitcoin.svg.png" alt="Bitcoin Logo" />
+        <h1><i>₿</i>itcoin</h1>
+        <nav>
+            <ul>
+                <ol><a href="#"><strong>History</strong></a></ol>
+                <ol><a href="#"><strong>Design</strong></a></ol>
+                <ol><a href="#"><strong>Economics</strong></a></ol>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="hero">
+            <div id="img-div">
+              <img id="image" src="https://lh5.googleusercontent.com/fjCJ5kvMA_0ZTOSQllIgOd6cHyTM3YpHKDHcWJhO10qmGim9HdIl7KA3PRh0M_NiVjueyRSfs2r_hY253rTwiFw=w1280">
+              <figcaption id="img-caption"><strong>The First Decentralized Peer to Peer Network</strong></figcaption>
+            </div>
+        </div>
+        <div class="abstract sector">
+            <h2>Abstract</h2>
+            <div class="container-box">
+                <div class="abstract container">
+                    <p id="tribute-info">Bitcoin (BTC; ₿) is the first decentralized cryptocurrency, enabling peer-to-peer transactions without central oversight. Transactions are verified through cryptography and recorded in a public ledger called the blockchain. The network's consensus is achieved using a proof-of-work system called mining, which secures the blockchain but is energy-intensive and environmentally controversial. Bitcoin, introduced by the pseudonymous Satoshi Nakamoto in 2008, operates on a free market ideology and is considered both a store of value and an investment, though its use as a medium of exchange is limited.</p>
+                </div>
+            </div>
+        </div>
+        <div class="history sector">
+            <h2>History</h2>
+            <div class="container-box">
+                <div class="background container">
+                    <h3>Background</h3>
+                    <p>Before Bitcoin, various digital cash systems existed, such as David Chaum's ecash in the 1980s. Concepts like proof-of-work were developed by cryptographers like Cynthia Dwork, Moni Naor, and Adam Back. Early cryptocurrency proposals included Wei Dai's b-money and Nick Szabo's bit gold. However, these attempts failed due to centralization issues or security vulnerabilities.</p>
+                </div>
+                <div class="creation container">
+                    <h3>Creation</h3>
+                    <p>Bitcoin was created in 2008 by Satoshi Nakamoto, who released a white paper outlining a peer-to-peer electronic cash system. The Bitcoin network launched on January 3, 2009, with the mining of the genesis block. Nakamoto's identity remains unknown. Early supporters included Hal Finney, Wei Dai, and Nick Szabo. The first known commercial transaction using Bitcoin occurred in 2010 when Laszlo Hanyecz bought two pizzas for 10,000 BTC.</p>
+                </div>
+                <div class="growth container">
+                    <h3>Growth</h3>
+                    <p>Bitcoin's early growth saw its adoption by black markets like Silk Road, which used Bitcoin for transactions. Nakamoto mined about one million bitcoins before handing control to Gavin Andresen in 2010. The Bitcoin Foundation was established in 2012 to promote Bitcoin. By 2013, Bitcoin faced regulatory actions, with the US establishing guidelines and China banning financial institutions from using Bitcoin.</p>
+                </div>
+                <div class="regulation container">
+                    <h3>Regulation</h3>
+                    <p>Regulatory actions against Bitcoin began in 2013, with the US classifying American Bitcoin miners as money services businesses. Authorities seized the Mt. Gox exchange and later Silk Road's bitcoins. In 2013, China banned financial institutions from using Bitcoin, affecting its market value.</p>
+                </div>
+                <div class="present container">
+                    <h3>Present</h3>
+                    <p>From 2015 to the present, Bitcoin saw significant developments, including the introduction of SegWit and the Lightning Network for scalability. Major companies like MicroStrategy and Tesla invested in Bitcoin. Bitcoin's price and adoption have fluctuated due to regulatory actions and market dynamics. In 2021, El Salvador adopted Bitcoin as legal tender.</p>
+                </div>
+            </div>
+        </div>
+        <div class="design sector">
+            <h2>Design</h2>
+            <div class="container-box">
+                <div class="units-and-divisibility container">
+                    <h3>Units and Divisibility</h3>
+                    <p>Bitcoin (BTC) is represented by the symbol ₿ and can be divided into smaller units: millibitcoin (mBTC) and satoshi (sat), the smallest unit representing 0.00000001 BTC. The system is pseudonymous, with transactions recorded on the blockchain.</p>
+                </div>
+                <div class="blockchain container">
+                    <h3>Blockchain</h3>
+                    <p>Bitcoin's blockchain is a decentralized ledger maintained by a peer-to-peer network. It consists of blocks containing transaction data, linked by cryptographic hashes. Nodes validate and broadcast transactions, ensuring each Bitcoin is spent only once.</p>
+                </div>
+                <div class="transaction container">
+                    <h3>Transactions</h3>
+                    <p>Bitcoin transactions involve inputs and outputs. Users specify recipients' addresses and amounts. To prevent double-spending, each input must refer to a previous unspent output. Unspent satoshis become transaction fees.</p>
+                </div>
+                <div class="mining container">
+                    <h3>Mining</h3>
+                    <p>Mining involves maintaining the blockchain by grouping transactions into blocks, verified by proof of work. Miners earn rewards and transaction fees. The process is computationally intensive and energy-consuming.</p>
+                </div>
+                <div class="privacy container">
+                    <h3>Privacy</h3>
+                    <p>Bitcoin is pseudonymous, with transactions linked to addresses, not identities. Users can enhance privacy by generating new addresses for each transaction. However, all transactions are public on the blockchain, allowing for potential analysis.</p>
+                </div>
+                <div class="decentralization container">
+                    <h3>Decentralization</h3>
+                    <p>Bitcoin operates without a central authority, relying on a decentralized network of nodes. This ensures that anyone can create a new Bitcoin address and transact without needing approval. Decentralization also means control of the network is distributed among its users.</p>
+                </div>
+            </div>
+        </div>
+        <div class="economics sector">
+            <h2>Economics</h2>
+            <div class="container-box">
+                <div class="ideaology container">
+                    <h3>Ideology</h3>
+                    <p>Bitcoin's ideology is rooted in the Austrian school of economics, advocating for a free market in money production and distribution. It appeals to libertarians and anarchists who seek to remove money from government control.</p>
+                </div>
+                <div class="recognition container">
+                    <h3>Recognition</h3>
+                    <p>Bitcoin's legal status varies globally. It is legal tender in El Salvador but banned in several countries. Its use by criminals has drawn regulatory scrutiny. Some governments, like Iran, use Bitcoin to bypass sanctions.</p>
+                </div>
+                <div class="payments container">
+                    <h3>Payments</h3>
+                    <p>Bitcoin is rarely used for everyday transactions due to high fees and price volatility. It is more commonly used for large purchases and cross-border payments. Some governments accept Bitcoin for tax payments.</p>
+                </div>
+                <div class="investment container">
+                    <h3>Investment</h3>
+                    <p>Bitcoin is seen as an investment, with significant holdings by individuals and institutions. Its market is highly volatile and susceptible to manipulation. Economists have debated its status as a bubble, while others see it as a legitimate asset class.</p>
+                </div>
+            </div>
+        </div>
+        <div class="references sector">
+            <h2>References</h2>
+            <div class="container-box">
+                <div class="references container">
+                    <p>Wikipedia contributors. (2024, May 26). Bitcoin. Wikipedia. https://en.wikipedia.org/wiki/Bitcoin</p>
+                </div>
+            </div>
+            <h3><a href="https://en.wikipedia.org/wiki/Bitcoin" id="tribute-link" target="_blank">Learn More Here</a></h3>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
