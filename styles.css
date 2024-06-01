@@ -1,0 +1,184 @@
+* {
+  font-family: Sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+  
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: #B9A89B;
+  height: 10%;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+  position: fixed;
+  border-bottom: solid #524438 6px;
+}
+
+header img {
+  padding-left: 50px;
+  align-items: left;
+  object-fit:cover;
+}
+
+header h1 {
+  align-items: center;
+  font-size: 2vw;
+  color: #ffff;
+  background-color: #F79413;
+  border: solid  4px #524438;
+  border-radius: 5px;
+  padding: 12 27px;
+}
+
+header > h1 > i {
+  padding: 0 3;
+}
+
+header nav {
+ padding-right: 50px;
+
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  border: solid 4px #524438;
+  border-radius: 5px;
+  margin: 0;
+  padding-inline-start: 0;
+  
+}
+
+header > nav > ul > ol {
+  padding: 15px 30px;
+  transition: background-color .3s ease;
+}
+
+header > nav > ul > ol > a {
+  text-decoration: none;
+  color: #524438;
+  font-size: 1.3rem;
+  transition: color .3s ease;
+}
+
+header > nav > ul > ol:hover {
+  background-color:#f79413;
+}
+
+header nav ul ol:hover a {
+  color: #ffff;
+  
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 210px;
+  width: 100%;
+  flex-direction: column;
+  border: solid;
+}
+
+main .hero {
+  width: 90%;
+  height: 75%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid #524438 12px;
+  border-radius: 100px;
+  background-color: #fbfbec;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+
+main .hero #img-div img {
+  width: auto\100;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+}
+  
+main .hero {
+  justify-content: center;
+  display: flex;
+  align-items:center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 27px;
+  font-style: bold;
+}
+
+.sector {
+  width: 80%;
+  height: auto;
+  margin: 21px auto;
+
+}
+
+
+.sector h2 {
+  width: 96%;
+  color: #524438;
+  margin: 15px 15px;
+  margin-bottom: 0;
+}
+
+.container-box {
+  border: solid #524438 6px;
+  border-radius: 20px;
+}
+
+.container {
+  margin: 12px;
+
+}
+
+.container h3 {
+  text-decoration: underline;
+  text-decoration-color: #524438;
+  padding-left: 12px;
+  padding-bottom: -6px;
+  color: #524438;
+}
+
+.container p {
+  padding: 12px 0;
+  
+  color: #524438;
+}
+
+@media (max-width: 1200px) {
+  
+  header img {
+    margin: 0;
+    padding:0px 0px;
+    margin-left: -24px;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  header nav {
+    padding: 0 12px;
+  }
+
+  header nav ul ol{
+    padding: 12px 6px;
+  }
+}
